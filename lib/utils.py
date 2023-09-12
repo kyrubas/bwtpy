@@ -1,23 +1,29 @@
 
 import numpy as np
 def convert_to_ord_arr(dstring):
+    """
+    Coverts a string of characters to an integer array
+    """
     return np.array([[ord(x) for x in dstring]])
 
-def annotate_ends(darr):
+def annotate_end(darr):
     """
-    
+    Adds a -1 to denote the end of the array
     """
     return np.append(darr, np.array(-1))
 
 def rotate_array(dstring):
     """
-    
+    Does the following: 
+        Takes in a sequence to convert to ordinal
+        Annotates the end of the sequence
+        Rotates a copy of the last row by 1 postion
+        Stacks array on top of rotated row
     """
     out = convert_to_ord_arr(dstring)
-    out = annotate_ends(out)
+    out = annotate_end(out)
     for i in range(out.size-1):
-        row = out[-1] if len(out.shape) > 1 else out
-        newrow = np.insert(row[:-1], 0, row[-1])
+        newrow = np.roll(out[-1] if len(out.shape) > 1 else out, 1)
         out = np.vstack([out, newrow])
     return out
 
