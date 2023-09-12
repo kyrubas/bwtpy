@@ -1,0 +1,4 @@
+tests/data/final_bwt.pkl filter=lfs diff=lfs merge=lfs -text
+tests/data/rotations.pkl filter=lfs diff=lfs merge=lfs -text
+tests/data/sorted_array.pkl filter=lfs diff=lfs merge=lfs -text
+**/*.pkl filter=lfs diff=lfs merge=lfs -text
