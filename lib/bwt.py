@@ -1,4 +1,3 @@
-
 import numpy as np
 def convert_to_ord_arr(dstring):
     """
@@ -29,7 +28,7 @@ def rotate_array(dstring):
 
 def sort_array(rotated_array):
     """
-    Sorts the rotated string in lexiconical order
+    Sorts the an array in lexiconical order
     Args:
         rotated_array (np.array): A M x N array of integers
     """
