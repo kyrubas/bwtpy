@@ -6,7 +6,7 @@ Importantly, in bioinformatics, the BWT of a reference sequence can be used as a
 
 ---
 ## What is this repo about?
-Despite having no formal educational background in computer science, I've been interested in the intricacies of algorithmic data structures and process for a while. Python is currently my strongest language and as such implementing a widely used data structure and method (examples include BWA and Bowtie) used on that data structure will prove insightful. Additionally, I feel that I've reach a point in my career where the algorithms that interest me the most may be implemented in Python, they would be vastly more performant if implemented in a compiled language in order to be of practical use.
+Despite having no formal educational background in computer science, I've been interested in the intricacies of algorithmic data structures and process for a while. Python is currently my strongest language and as such implementing a widely used data structure and method (examples include BWA and Bowtie) used on that data structure will prove insightful. Additionally, I feel that I've reach a point in my career where the algorithms that interest me the most may be implemented in Python, they would be vastly more performant if implemented in a compiled language in order to be of practical use. To that end, once this project has implemented a method for alignment that includes mismatches and INDELs, I will be doing this all over again in a separate repo using [Rust](https://www.rust-lang.org/).
 
 ---
 ## Installation
