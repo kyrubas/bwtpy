@@ -20,6 +20,6 @@ Tests are written using pytest in a test driven development cycle. Prior to a ne
 
 ---
 ## Resources
-This set of medium articles have been immenensly helpful in understanding how alignment can be achieved using the BTW:
-* [BTW Part1](https://medium.com/@mr-easy/burrows-wheeler-alignment-part-1-eb93057bfff5)  
+This set of medium articles have been immensely helpful in understanding how alignment can be achieved using the BWT:
+* [BWT Part1](https://medium.com/@mr-easy/burrows-wheeler-alignment-part-1-eb93057bfff5)  
 * [BWT Part2](https://medium.com/@mr-easy/burrows-wheeler-alignment-part-2-89e08729822a)
